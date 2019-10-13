@@ -1,14 +1,13 @@
-//
-//  CircleImage.swift
-//  Landmarks
-//
-//  Created by Jason Mitchell on 6/10/19.
-//  Copyright © 2019 Jason Mitchell. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that clips an image to a circle and adds a stroke and shadow.
+*/
 
 import SwiftUI
 
-struct CircleImage : View {
+struct CircleImage: View {
     var body: some View {
         Image("turtlerock")
             .clipShape(Circle())
@@ -18,10 +17,8 @@ struct CircleImage : View {
     }
 }
 
-#if DEBUG
-struct CircleImage_Previews : PreviewProvider {
+struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
         CircleImage()
     }
 }
-#endif
