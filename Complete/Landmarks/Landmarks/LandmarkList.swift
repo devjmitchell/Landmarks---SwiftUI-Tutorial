@@ -1,10 +1,9 @@
-//
-//  LandmarkList.swift
-//  Landmarks
-//
-//  Created by Jason Mitchell on 10/12/19.
-//  Copyright © 2019 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing a list of landmarks.
+*/
 
 import SwiftUI
 
@@ -16,7 +15,7 @@ struct LandmarkList: View {
                     LandmarkRow(landmark: landmark)
                 }
             }
-        .navigationBarTitle(Text("Landmarks"))
+            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }

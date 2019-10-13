@@ -1,22 +1,22 @@
-//
-//  LandmarkRow.swift
-//  Landmarks
-//
-//  Created by Jason Mitchell on 10/12/19.
-//  Copyright © 2019 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A single row to be displayed in a list of landmarks.
+*/
 
 import SwiftUI
 
 struct LandmarkRow: View {
     var landmark: Landmark
-    
+
     var body: some View {
         HStack {
             landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(landmark.name)
+            Text(verbatim: landmark.name)
+            Spacer()
         }
     }
 }
