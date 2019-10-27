@@ -14,7 +14,7 @@ struct CategoryHome: View {
             by: { $0.category.rawValue }
         )
     }
-    
+
     var featured: [Landmark] {
         landmarkData.filter { $0.isFeatured }
     }
@@ -69,5 +69,6 @@ struct FeaturedLandmarks: View {
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
+            .environmentObject(UserData())
     }
 }
