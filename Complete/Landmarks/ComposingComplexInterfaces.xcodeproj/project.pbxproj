@@ -44,11 +44,11 @@
 		B7D587BC229F82EB006E8DCF /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587BB229F82EB006E8DCF /* HikeDetail.swift */; };
 		B7D587BE229F82FF006E8DCF /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587BD229F82FF006E8DCF /* HikeGraph.swift */; };
 		B7D587C0229F830B006E8DCF /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = B7D587BF229F830B006E8DCF /* hikeData.json */; };
+		B7D587D222A0892C006E8DCF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D122A0892C006E8DCF /* Home.swift */; };
+		B7D587D422A08965006E8DCF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D322A08965006E8DCF /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CCE36F02CCE547000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		2F63C8F02F63CC3000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +88,11 @@
 		B7D587BB229F82EB006E8DCF /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		B7D587BD229F82FF006E8DCF /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		B7D587BF229F830B006E8DCF /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		B7D587D122A0892C006E8DCF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B7D587D322A08965006E8DCF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C4E4AAA0C4E4035000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E95D3460E95D2F9000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		E978F700E978F63000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,31 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CCE92202CCEC87000000001 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				2CCE36F02CCE547000000001 /* LICENSE.txt */,
-			);
-			name = LICENSE;
-			path = ../LICENSE;
-			sourceTree = "<group>";
-		};
-		2F63CF802F63CF4000000001 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				2F63C8F02F63CC3000000001 /* SampleCode.xcconfig */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
 		B7394859229F194000C47603 = {
 			isa = PBXGroup;
 			children = (
 				C4E4AAA0C4E4035000000001 /* README.md */,
 				B7394864229F194000C47603 /* Landmarks */,
 				B7394863229F194000C47603 /* Products */,
-				2F63CF802F63CF4000000001 /* Configuration */,
-				2CCE92202CCEC87000000001 /* LICENSE */,
+				E9790050E978F28000000001 /* Configuration */,
+				E95DDE50E95D277000000001 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +131,8 @@
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
+				B7D587D122A0892C006E8DCF /* Home.swift */,
+				B7D587D322A08965006E8DCF /* CategoryRow.swift */,
 				B73948A0229F2E1F00C47603 /* LandmarkList.swift */,
 				B739489E229F2D9700C47603 /* LandmarkRow.swift */,
 				B7394869229F194000C47603 /* LandmarkDetail.swift */,
@@ -213,6 +202,23 @@
 				B73948A2229F3E2200C47603 /* charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E95DDE50E95D277000000001 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				E95D3460E95D2F9000000001 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = ../LICENSE;
+			sourceTree = "<group>";
+		};
+		E9790050E978F28000000001 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E978F700E978F63000000001 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +311,7 @@
 				B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B7D587B8229F826D006E8DCF /* GraphCapsule.swift in Sources */,
+				B7D587D422A08965006E8DCF /* CategoryRow.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B739487C229F1B6800C47603 /* MapView.swift in Sources */,
 				B7D587BA229F8288006E8DCF /* Hike.swift in Sources */,
@@ -314,6 +321,7 @@
 				B73948A1229F2E1F00C47603 /* LandmarkList.swift in Sources */,
 				B7D587B0229F73C1006E8DCF /* BadgeSymbol.swift in Sources */,
 				B7D587B2229F7406006E8DCF /* RotatedBadgeSymbol.swift in Sources */,
+				B7D587D222A0892C006E8DCF /* Home.swift in Sources */,
 				B7D587BE229F82FF006E8DCF /* HikeGraph.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B7D587AE229F7382006E8DCF /* BadgeBackground.swift in Sources */,
@@ -340,7 +348,7 @@
 /* Begin XCBuildConfiguration section */
 		B7394874229F194200C47603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F63C8F02F63CC3000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = E978F700E978F63000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -401,7 +409,7 @@
 		};
 		B7394875229F194200C47603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F63C8F02F63CC3000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = E978F700E978F63000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -456,7 +464,7 @@
 		};
 		B7394877229F194200C47603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F63C8F02F63CC3000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = E978F700E978F63000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,7 +486,7 @@
 		};
 		B7394878229F194200C47603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F63C8F02F63CC3000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = E978F700E978F63000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
