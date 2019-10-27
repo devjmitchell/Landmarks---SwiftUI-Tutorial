@@ -36,15 +36,13 @@
       "scale" : "3x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "landmark_app_icon_120x120-1.png",
+      "size" : "60x60",
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "landmark_app_icon_180x180.png",
+      "size" : "60x60",
       "scale" : "3x"
     },
     {
